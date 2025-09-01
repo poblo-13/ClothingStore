@@ -6,7 +6,7 @@ public class MainView {
     private final Scanner scanner = new Scanner(System.in);
 
     public void showMainMenu() {
-        System.out.println("\n---- DUOC Clothing Store ----");
+        System.out.println("\n---- Clothing Store ----");
         System.out.println("1. Ir a la tienda de productos");
         System.out.println("2. Ver carrito");
         System.out.println("3. Vaciar carrito");
@@ -18,7 +18,7 @@ public class MainView {
         try {
             return scanner.nextInt();
         } catch (java.util.InputMismatchException e) {
-            scanner.next(); // Clear the invalid input
+            scanner.next();
             return -1;
         }
     }

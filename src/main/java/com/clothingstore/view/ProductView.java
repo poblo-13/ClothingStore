@@ -6,7 +6,7 @@ public class ProductView {
     private final Scanner scanner = new Scanner(System.in);
     
     public void showProductsMenu() {
-        System.out.println("\n--- DUOC Clothing Store - Productos ---");
+        System.out.println("\n--- Clothing Store - Productos ---");
         System.out.println("1. Agregar Pantalones");
         System.out.println("2. Agregar Poleras");
         System.out.println("3. Volver al menu principal");
